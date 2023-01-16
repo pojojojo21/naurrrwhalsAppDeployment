@@ -1,0 +1,25 @@
+.registrationWrapper {
+  background-color: #E7F8FF;
+  color: #0F4156;
+  padding: 5vh;
+}
+
+.registrationWrapper #sec1 {
+  background-color: #8FD1EE;
+  padding: 2vh;
+  font-style: italic;
+}
+
+.dropdown {
+  max-width: 50vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin: 1vh;
+  text-align: center;
+  background-color: #97FFF3;
+  border-radius: 3vh;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #A738DC;
+}

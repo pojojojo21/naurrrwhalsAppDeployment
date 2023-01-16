@@ -1,0 +1,82 @@
+.v-popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+   
+  .v-box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: 50%;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Courier New', monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #1C5372;
+  }
+   
+  .v-close-btn {
+    border-radius: 30px;
+    background-color: #E9E9E9;
+    height: 40px;
+    max-width: 20%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1C5372;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .v-close-btn:hover {
+    background-color: #006E90;
+    color: white;
+    cursor: pointer;
+  }
+
+  .sendbtn{
+    border-radius: 30px;
+    background-color: #006E90;
+    height: 40px;
+    max-width: 20%;
+    margin-top: 2%;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .sendbtn:hover{
+    background-color: #025d79;
+  }
+
+  .removebtn{
+    border-radius: 30px;
+    background-color: #006E90;
+    height: 40px;
+    max-width: 20%;
+    margin-top: 2%;
+    margin-left:4%;
+    margin-right:4%;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .removebtn:hover{
+    background-color: #025d79;
+  }

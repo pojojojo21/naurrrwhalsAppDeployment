@@ -1,0 +1,32 @@
+.message_disp {
+    position: relative;
+    margin-top: 15%;
+    left: 15%;
+    width: 450px;
+    bottom: 40px;
+    min-height: 75vh;
+    background-color: #DBF6FC;
+    border: 5px solid #1C5372;
+    border-radius: 1vh;
+} 
+
+#messagelist {
+    max-height: 60vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: end;
+}
+
+#messagebox {
+    padding: 1vh;
+}
+
+/* position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 450px;
+    min-height: 60vh;
+    background-color: #DBF6FC;
+    border: 5px solid #1C5372; */
+

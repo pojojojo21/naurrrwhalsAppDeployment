@@ -1,0 +1,73 @@
+.loginWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.loginWelcome{
+  background-color: #97FFF3;
+  min-height: 50vh;
+  min-width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWelcome h1{
+  position: relative;
+  margin: 0%;
+  color: #0F4156;
+}
+
+.loginInputs{
+  min-height: 50vh;
+  min-width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lMessage{
+  max-width: 40vh;
+  margin-bottom: -5%;
+  font-size: 32px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error{
+  max-width: 40vh;
+  color: red;
+}
+
+/* textboxes */
+.lInputs{
+  min-width: 40vh;
+  max-width: 40vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 1vh;
+  background-color: #BEC4FB;
+  border-style: dashed;
+  border-radius: 3vh;
+  text-align: center;
+  font-size: 24px;
+}
+
+.lButtons{
+  max-width: 40vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 1vh;
+  background-color: #97FFF3;
+  border-style: dashed;
+  border-radius: 3vh;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.lButtons:hover{
+  background-color: #7FDDD2;
+}

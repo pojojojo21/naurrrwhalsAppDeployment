@@ -1,0 +1,11 @@
+.message_wrapper {
+    list-style-type: none;
+}
+
+.messagelist_date {
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+    background: #6a73fd
+}
+

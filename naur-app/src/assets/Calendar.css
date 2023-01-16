@@ -1,0 +1,77 @@
+
+#calendar {
+    display: flex;
+    flex-direction: row;
+}
+
+#editBar {
+    background-color: #DBF6FC;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 3vh;
+}
+
+#topBar {
+    font-size: 5vh;
+    border-style: solid;
+    border-left: 0vh;
+    border-right: 0vh;
+    border-top: 0vh;
+}
+
+#top {
+    font-size: 5vh;
+}
+
+#eventadder {
+    padding-top: 3vh;
+}
+
+.calLabel {
+    max-width: 25vh;
+    margin: 1vh;
+    text-align: center;
+    background-color: #97FFF3;
+    border-radius: 1vh;
+    cursor: pointer;
+    font-size: 16px;
+    color: #A738DC;
+}
+
+#blobadder {
+    
+}
+
+#blobeditor {
+    background-color: #5CBCD1;
+    padding: 5vh;
+}
+
+#datepicker {
+    max-width: 25vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-right: 1vh;
+    margin: 1vh;
+    text-align: center;
+    background-color: #97FFF3;
+    border-radius: 3vh;
+    cursor: pointer;
+    font-size: 16px;
+    color: #A738DC;
+}
+
+.calendarview {
+    padding: 5vh;
+    position: relative;
+    align-self: center;
+    width: 100vh;
+    height: 500px;
+    overflow: auto;
+    align-items: center;
+}
+
+.btn-grp {
+    display: flex;
+    flex-direction: row;
+}

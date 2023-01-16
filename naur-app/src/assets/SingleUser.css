@@ -1,0 +1,8 @@
+.unclicked {
+    color: black;
+}
+
+.clicked {
+    color: blue;
+    font-weight: bold;
+}
