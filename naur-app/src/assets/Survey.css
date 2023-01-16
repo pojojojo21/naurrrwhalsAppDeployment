@@ -1,0 +1,86 @@
+.survey{
+  background-color: #C6F2FC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  min-width: 120vh;
+  margin: 5vh;
+}
+
+.survey h2{
+  margin: 1%;
+  background-color: #8FD1EE;
+  min-width: 50vh;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.survey h4{
+  margin: 0%;
+}
+
+.survey .dropdown{
+  max-width: 20vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin: 1vh;
+  text-align: center;
+  background-color: #97FFF3;
+  border-radius: 3vh;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #A738DC;
+}
+
+.survey h1{
+  margin: 2%;
+}
+
+.survey .goals{
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  margin: 1vh;
+  text-align: center;
+  background-color: #97FFF3;
+  border-style: solid;
+  border-radius: 3vh;
+  text-align: center;
+  font-size: 16px;
+  color: #A738DC;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.survey input{
+  cursor: pointer;
+}
+
+.survey .goalButton{
+  max-width: 20vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 1vh;
+  background-color: #97FFF3;
+  border-style: dashed;
+  border-radius: 3vh;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.survey form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

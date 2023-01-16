@@ -1,0 +1,98 @@
+.taskView {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vh;
+    height: 85vh;
+    background-color: #00ECD0;
+    overflow: auto;
+}
+
+.taskEl {
+    width: 100%;
+    position: absolute;
+    color:aliceblue;
+}
+
+.striked {
+    text-decoration: line-through;
+}
+
+.taskView header {
+    background-color: #949EFF;
+    padding: 20 px;
+    min-width: 40vh;
+    min-height: 10vh;
+    top: 0 px;
+    margin: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskView button{
+    width: 100%;
+}
+
+.taskView .task-body{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.taskView .task-body button{
+    background-color: #8FD1EE;
+    min-width: 20vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0.5vh;
+    border-style: solid;
+    border-radius: 3vh;
+    text-align: center;
+    font-size: 24px;
+    max-width: 3vh;
+}
+
+.taskView .task-body button:hover{
+    background-color: #00ECD0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0.5vh;
+    border-style: solid;
+    border-radius: 3vh;
+    text-align: center;
+    font-size: 24px;
+}
+
+.taskView input{
+    min-width: 30vh;
+    max-width: 30vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 1vh;
+    background-color: #BEC4FB;
+    border-style: solid;
+    border-radius: 3vh;
+    text-align: center;
+    font-size: 24px;
+}
+
+.taskButton{
+    max-width: 30vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 1vh;
+    background-color: #97FFF3;
+    border-style: solid;
+    border-radius: 3vh;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.taskButton:hover{
+    background-color: #7FDDD2;
+}

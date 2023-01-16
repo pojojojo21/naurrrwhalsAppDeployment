@@ -1,0 +1,30 @@
+.my_msg {
+    position: relative;
+    margin-top: 1%;
+    padding-right: 5px;
+    right: 20px;
+    border-radius: 3%;
+    color: white;
+    background: blue;
+    text-align: right;
+}
+
+.friend_msg {
+    position: relative;
+    margin-top: 1%;
+    padding-left: 5px;
+    left: -20px;
+    border-radius: 3%;
+    color: black;
+    background: gray;
+    text-align: left;
+}
+
+.img_msg {
+    max-width: 100%;
+    height: auto;
+}
+
+#msg_time{
+    font-size:10px;
+}

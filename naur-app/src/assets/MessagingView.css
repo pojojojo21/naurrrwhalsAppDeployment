@@ -1,0 +1,12 @@
+.MessagingView {
+  text-align: left;
+}
+
+.messagingWrapper {
+  min-height: 77.5vh;
+  min-width: 150vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

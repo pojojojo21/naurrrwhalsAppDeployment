@@ -1,0 +1,45 @@
+.homepageWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navigation{
+  background-color: #949EFF;
+  min-height: 10vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navButton{
+  max-width: 15vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin: 1vh;
+  background-color: #97FFF3;
+  border-style:groove;
+  border-radius: 3vh;
+  text-align: center;
+  cursor: pointer;
+  font-size: 46px;
+}
+
+.navButton:hover{
+  background-color: #7FDDD2;
+}
+
+.Navigation h1{
+  padding: 2vh;
+  background-color: #97FFF3;
+  border-radius: 3vh;
+}
+
+#date_box{
+  background-color: #97FFF3;
+  padding: 1vh;
+  border-radius: 3vh;
+}

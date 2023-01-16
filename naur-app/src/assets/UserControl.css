@@ -1,0 +1,72 @@
+.user_ctl{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 300px;
+    min-height: 70vh;
+    background-color: #DBF6FC;
+    border: 3px solid #1C5372;
+}
+
+#messageicon{
+    font-size: 36px;
+    text-align: left;
+    padding-left: 3vh;
+    padding-top: 1vh;
+    border-style: solid;
+    border-color: #1C5372;
+    border-top: 0;
+    border-right: 0;
+    border-left:0;
+}
+
+.messageButton{
+    max-width: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 1vh;
+    background-color: #DBF6FC;
+    border-style:hidden;
+    border-radius: 3vh;
+    text-align: center;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+#messageiconWrapper{
+    margin-top: 45vh;
+    border-style: solid;
+    border-color: #1C5372;
+    border-bottom: 0;
+    border-right: 0;
+    border-left:0;
+}
+
+.user_ctl ul{
+    list-style-type: square;
+    border-style: solid;
+    border-color: #1C5372;
+}
+
+.userButton{
+    background-color: #DBF6FC;
+    border-style:hidden;
+    text-align: center;
+    cursor: pointer;
+    font-size: 36px;
+    max-width: 8vh;
+    max-height: 4vh;
+    margin-left:3vh;
+}
+
+#single_user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 1vh;
+}
+
+#usernamebar{
+    cursor: pointer;
+}
